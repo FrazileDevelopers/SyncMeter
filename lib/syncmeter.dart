@@ -33,6 +33,7 @@ class _SyncMeterState extends State<SyncMeter> {
               needleStartWidth: 1,
               value: 180,
               enableAnimation: true,
+              animationDuration: 1650,
               needleEndWidth: true
                   ? 5
                   : MediaQuery.of(context).orientation == Orientation.portrait
